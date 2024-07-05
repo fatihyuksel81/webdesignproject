@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.card {
+	border-radius: 20px;
+	border-color:orange;
+	margin-bottom: 20px;
+	justify-content: space-between;
+	display: flex;
+	position: relative;
+	transition: 0.7s;
+}
+.card:hover {
+	transform: scale(1.1);
+	background-color:orange;
+	color:white;
+}

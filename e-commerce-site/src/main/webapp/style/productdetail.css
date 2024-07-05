@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.product-image {
+            max-height: 400px;
+            object-fit: cover;
+            width: 100%;
+        }
+        .product-description {
+            white-space: pre-wrap;
+        }
+        .product-image:hover {
+        	transform: scale(1.2);
+     		transition: transform 0.7s ease;
+        }

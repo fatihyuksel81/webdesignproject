@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #faf3e0;
+}
+
+
+.product-image {
+    max-height: 400px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.product-card:hover {
+     transform: scale(1.1);
+     background-color: orange;
+     color:white;
+     transition: transform 0.7s ease;
+}
+
+.bluepuprle {
+	background-color: #9494E9;
+}
+
+text1{
+	color: white;
+	text-align: center;
+	
+}
+
+.product-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin-bottom: 20px;
+    border-color:orange;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.product-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+}
+
+.product-card .price-container {
+    position: relative;
+    width: 100%;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.product-card .price,
+.product-card .btn {
+    transition: opacity 0.3s ease;
+}
+
+.product-card .price {
+    opacity: 1;
+    margin-top: auto;
+}
+
+.product-card .btn {
+    opacity: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100px;
+    border-radius:25px;
+    border:white;
+}
+
+.product-card:hover .price {
+    opacity: 0;
+}
+
+.product-card:hover .btn {
+    opacity: 1;
+    
+}
+
+.category {
+    margin-bottom: 10px;
+}
+
+.card-body > * {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+  .body{
+   color: #6767e0 !important;
+  }
+
+  .full-height {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .card {
+    min-height: 400px;
+    padding: 20px;
+    border-radius: 30px;
+  }
+  .btn-group-toggle .btn-secondary.active,
+  .btn-group-toggle .btn-secondary:hover,
+  .btn-group-toggle .btn-secondary:focus
+  .btn-group-toggle .btn-secondary input[type="radio"]:checked + label {
+    background-color: #ff8800;
+    border-color: #ff8800;
+    color: #fff;
+	}
+
+	.btn-group-toggle input[type="radio"] {
+    display: none;
+    }
+  .form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  .form-group input {
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+  .form-group input:focus ~ label,
+  .form-group input:not(:placeholder-shown) ~ label {
+    top: -10px;
+    left: 10px;
+    font-size: 12px;
+    color:#6767e0;
+  }
+  .form-group label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background: white;
+    padding: 0 5px;
+    transition: 0.2s;
+    color: #999;
+    pointer-events: none;
+  }
+  .btn {
+  margin-top:40px;
+  background-color: #6767e0;
+  border:#6767e0;
+  border-radius: 50px;
+  }
+  .button-group {
+    justify-content: center;
+    padding:20px 30px;
+    font-size:18px !important;
+    margin: 5px;
+  }
+  body {
+  background-color: #6767e0;
+  }
+  
+  .forgot-password {
+  position: absolute;
+  bottom: -30px;
+  right: 10px;
+  font-size: 14px;
+  color: #007bff;
+  cursor: pointer;
+}
+
+ .forgot-password:hover {
+ 	color:black;
+ 	text-decoration: underline;
+ }
+
+  
